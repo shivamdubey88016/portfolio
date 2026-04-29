@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --base: #07050d;
+}
+
+html[data-theme='light'] {
+  --base: #f9f5ff;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+  background: var(--base);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@theme {
+  --color-base: var(--base);
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-3xl border border-white/15 bg-slate-900/35 shadow-[0_0_0_1px_rgba(255,255,255,0.06),0_35px_70px_rgba(4,4,20,0.45)] backdrop-blur-2xl;
+  }
+
+  .prime-btn {
+    @apply inline-flex items-center rounded-full border border-amber-200/45 bg-amber-300/10 px-4 py-1.5 text-sm font-medium text-amber-100 transition hover:shadow-[0_0_24px_rgba(251,191,36,0.45)];
+  }
+
+  .alt-btn {
+    @apply inline-flex items-center rounded-full border border-violet-200/35 bg-violet-400/10 px-4 py-1.5 text-sm font-medium text-violet-100 transition hover:shadow-[0_0_24px_rgba(167,139,250,0.35)];
+  }
+
+  .meta {
+    @apply text-xs uppercase tracking-[0.26rem] text-amber-200;
+  }
+
+  .title {
+    @apply mt-2 text-2xl font-semibold text-white md:text-3xl;
+  }
+
+  .nav-pill {
+    @apply rounded-xl border border-white/10 bg-black/25 px-3 py-2 capitalize text-slate-200 transition hover:border-amber-200/40 hover:bg-amber-400/10 hover:text-amber-100;
+  }
+
+  .orb-card {
+    @apply rounded-2xl border border-white/15 bg-black/30 p-5 transition hover:-translate-y-1 hover:border-violet-300/45;
+  }
+
+  .project-tile {
+    @apply rounded-2xl border border-white/15 bg-black/30 p-5 shadow-[0_0_35px_rgba(147,51,234,0.15)];
+  }
+
+  .chip {
+    @apply rounded-full border border-emerald-200/35 bg-emerald-300/10 px-3 py-1 text-xs text-emerald-100;
+  }
+
+  .contact-box {
+    @apply rounded-2xl border border-white/15 bg-black/25 p-4 text-sm text-slate-200 transition hover:border-amber-300/50 hover:text-amber-100;
+  }
+}
