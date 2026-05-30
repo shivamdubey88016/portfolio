@@ -14,32 +14,39 @@ export const portfolioData = {
       description:
         'Browser-based voice assistant with real-time command recognition and speech synthesis using Web Speech API.',
       stack: ['JavaScript', 'Web Speech API', 'Responsive UI'],
-      live: '#',
-      github: '#',
+      live: 'https://zingy-bonbon-85a34a.netlify.app/',
+      github: 'https://github.com/shivamdubey88016/voice-assistance',
     },
     {
       title: 'StayFinder Travelling Website',
       description:
         'Full-stack travel booking platform with secure authentication, real-time search, and accommodation management.',
       stack: ['MongoDB', 'Express', 'React', 'Node.js'],
-      live: '#',
-      github: '#',
-    },
+      live: 'https://stayfinder-4vx0.onrender.com/',
+      github: 'https://github.com/shivamdubey88016/new-project',
+    },{
+  title: 'SyncParty',
+  description:
+    'Full-stack MERN platform for synchronized YouTube watch parties featuring real-time playback synchronization, JWT authentication, password-protected rooms, role-based controls, and MongoDB persistence.',
+  stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'JWT'],
+  live: 'https://web3task-1yke.onrender.com/',
+  github: 'https://github.com/shivamdubey88016/web3task.git',
+},
     {
       title: 'InspireX',
       description:
         'Collaboration platform connecting startups and researchers through project sharing and innovation tracking.',
       stack: ['MERN', 'REST APIs', 'MongoDB'],
-      live: '#',
-      github: '#',
+      live: 'https://inspirex-3.onrender.com/',
+      github: 'https://github.com/shivamdubey88016/InspireX',
     },
     {
       title: 'Job Site',
       description:
         'Role-based job portal for recruiters and applicants with job posting, application tracking, and secure auth.',
       stack: ['MERN', 'Role Authorization', 'REST APIs'],
-      live: '#',
-      github: '#',
+      live: 'https://job-site-1.onrender.com/',
+      github: 'https://github.com/shivamdubey88016/job-site.git',
     },
   ],
   timeline: [
@@ -62,8 +69,8 @@ export const portfolioData = {
   social: {
     email: 'Shivamdubey88016@gmail.com',
     phone: '+91-7070880116',
-    github: '#',
-    linkedin: '#',
-    leetcode: '#',
+    github: 'https://github.com/shivamdubey88016',
+    linkedin: 'https://linkedin.com/in/shivamdubey88016',
+   // leetcode: '#',
   },
 }
