@@ -166,6 +166,12 @@ function App() {
               <a href={`tel:${portfolioData.social.phone}`} className="contact-box">
                 {portfolioData.social.phone}
               </a>
+              <a href={portfolioData.social.github} target="_blank" rel="noreferrer" className="contact-box">
+                GitHub
+              </a>
+              <a href={portfolioData.social.linkedin} target="_blank" rel="noreferrer" className="contact-box">
+                LinkedIn
+              </a>
             </div>
           </section>
         </main>
