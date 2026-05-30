@@ -112,6 +112,24 @@ function App() {
                       </span>
                     ))}
                   </div>
+                  <div className="mt-5 flex gap-3 text-sm">
+                    <a
+                      className="text-cyan-300 transition hover:text-cyan-100"
+                      href={project.live}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live
+                    </a>
+                    <a
+                      className="text-indigo-300 transition hover:text-indigo-100"
+                      href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </motion.article>
               ))}
             </div>

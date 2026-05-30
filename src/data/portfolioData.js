@@ -5,8 +5,8 @@ export const portfolioData = {
     'A motivated Computer Science and Engineering student with strong core CS fundamentals, sharpening Web Development and Data Structures skills while building impactful real-world projects.',
   skills: {
     Frontend: ['React.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'CSS3'],
-    Backend: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'Authentication'],
-    Tools: ['Docker', 'Linux', 'GitHub Actions', 'Jenkins', 'AWS Basics'],
+    Backend: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'Authentication','Java'],
+    Tools: ['Docker', 'Linux', 'GitHub Actions', 'Jenkins', 'AWS Basics','Github'],
   },
   projects: [
     {
